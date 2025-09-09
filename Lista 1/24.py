@@ -20,7 +20,6 @@ def faixa_risco(imc):
     else:
         return "Obesidade mórbida"
 
-
 n1,n2 = map(float , input("Digite seu peso e altura e descubra seu IMC: ").split())
 
 resultado = imc(n1,n2)
